@@ -30,7 +30,7 @@ public class ValidatorTests {
 
         LocaleContextHolder.setLocale(Locale.ENGLISH);
         //commenting this line to check whether changes reflect in teamcity pipeline. ///////////////////////////////////
-	//Person person = new Person();
+	Person person = new Person();
         person.setFirstName("");
         person.setLastName("smith");
 
