@@ -29,7 +29,8 @@ public class ValidatorTests {
     public void shouldNotValidateWhenFirstNameEmpty() {
 
         LocaleContextHolder.setLocale(Locale.ENGLISH);
-        Person person = new Person();
+        //commenting this line to check whether changes reflect in teamcity pipeline. ///////////////////////////////////
+	//Person person = new Person();
         person.setFirstName("");
         person.setLastName("smith");
 
